@@ -3,7 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerdLogix.Accounts.Web", "HerdLogix.Accounts.Web\HerdLogix.Accounts.Web.csproj", "{34AB8FBB-4A5D-4B4B-BAE9-C48293188274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerdLogix.Accounts.Business", "HerdLogix.Accounts.Business\HerdLogix.Accounts.Business.csproj", "{A85B0167-FDA0-46AC-B960-C9D521BBA5A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerdLogix.Accounts.Domain", "HerdLogix.Accounts.Domain\HerdLogix.Accounts.Domain.csproj", "{86AB783C-BC05-41FD-A5AF-C11B92A8979D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HerdLogix.Accounts.Database", "HerdLogix.Accounts.Database\HerdLogix.Accounts.Database.sqlproj", "{13DB7F48-BB82-4F20-BF6A-D8DD9BFA3C84}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34AB8FBB-4A5D-4B4B-BAE9-C48293188274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AB8FBB-4A5D-4B4B-BAE9-C48293188274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AB8FBB-4A5D-4B4B-BAE9-C48293188274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AB8FBB-4A5D-4B4B-BAE9-C48293188274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85B0167-FDA0-46AC-B960-C9D521BBA5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85B0167-FDA0-46AC-B960-C9D521BBA5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85B0167-FDA0-46AC-B960-C9D521BBA5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85B0167-FDA0-46AC-B960-C9D521BBA5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AB783C-BC05-41FD-A5AF-C11B92A8979D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AB783C-BC05-41FD-A5AF-C11B92A8979D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AB783C-BC05-41FD-A5AF-C11B92A8979D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AB783C-BC05-41FD-A5AF-C11B92A8979D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DB7F48-BB82-4F20-BF6A-D8DD9BFA3C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DB7F48-BB82-4F20-BF6A-D8DD9BFA3C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DB7F48-BB82-4F20-BF6A-D8DD9BFA3C84}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{13DB7F48-BB82-4F20-BF6A-D8DD9BFA3C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DB7F48-BB82-4F20-BF6A-D8DD9BFA3C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DB7F48-BB82-4F20-BF6A-D8DD9BFA3C84}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
